@@ -12,3 +12,169 @@
     margin: 0 auto;
     background: var(--color-background-container, #fff);
   }
+
+  .header__content__heading {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    padding: 0 0 4px 0;
+    margin:0;
+  }
+.header__content__subheading {
+    /* font-size: 1.4rem; */
+    line-height: 1.42857;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+  }
+
+  .input input {
+    font-size: 1.2rem;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 1;
+    height: 52px;
+    padding: 0px 12px 6px;
+    border-radius: 4px !important;
+    border:1px solid #000;
+    width:100%;
+  }
+
+  .input {
+    margin-top: 24px;
+    position: relative;
+  background-color: #fff;
+  }
+
+  .forgot-password {
+    position: relative;
+    left: -8px;
+    margin-top: 8px;
+  }
+
+  .btn__tertiary--medium {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #0073b1;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+    color: var(--color-action, #0a66c2) !important;
+    border-radius: 28px !important;
+  }
+
+  
+  .forgot-password:hover{
+    background:#d0e8ff;
+    text-decoration:underline;
+
+  }
+
+  .login__form_action_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 16px;
+  }
+
+  .btn__primary--large {
+    background-color: #0073b1;
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+    background: var(--color-action, #0a66c2) !important;
+    border-radius: 28px !important;
+    height: 52px;
+  line-height: 52px;
+  width:100%;
+  }
+  .alternate-signin-container .or-separator {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+
+  .alternate-signin-container .or-separator::after, .alternate-signin-container .or-separator::before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0,0,0,0.15);
+  }
+  .alternate-signin-container .or-separator .or-text {
+    /* font-size: 1.4rem;
+    line-height: 1.42857; */
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    margin: 0 12px;
+  }
+  .alternate-signin-container .or-separator::after, .alternate-signin-container .or-separator::before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0,0,0,0.15);
+  }
+
+  .google-auth-button__tc {
+    font-size: 12px;
+    padding-top: 12px;
+  }
